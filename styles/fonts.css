@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(../fonts/radikal/Gotham-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url(../fonts/radikal/Gotham-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url(../fonts/Gotham/GothaProBol.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url(../fonts/Gotham/GothaProMed.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Regular';
+    src: url(../fonts/Gotham/GothaProReg.otf);
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url(../fonts/Gotham/GothaProLig.otf);
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+  <html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="theme-color" content="#4c42f5" />
+      <meta name="theme-color" content="#ffffff">
+      <title>SAMA - Simple but Advanced Messaging Alternative</title>
+      <meta name="description" content="Chat server for and mobile and web apps apps">
+
+      <!-- favicon -->
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/site.webmanifest">
+      <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="da_header">
+        <div class="da_container da_header">
+            <a href="/">
+                <div id="daHeaderLogo">
+                    <div class="da_header-logo"></div>
+                    <div class="da_header-logo-text">SAMA</div>
+                </div>
+            </a>
+            <nav id="da_headerNav" class="da_header-nav">
+                <div class="da_header-nav-item"><a href="#Features">Features</a></div>
+                <div class="da_header-nav-item"><a href="#CaseStudies">Case studies</a></div>
+                <div class="da_header-nav-item"><a href="#TryItNow">Try it now</a></div>
+                <!-- <div class="da_header-nav-item"><a href="#Testimonials">Testimonials</a></div> -->
+            </nav>
+            <a class="da_btn da_btn-sm da_btn-white da_header-btn" href="#ContactUs">CONTACT US</a>
+            <button id="da_headerNavBtn"></button>
+        </div>
+        <nav id="da_headerNavMobile" class="da_header-nav-mobile">
+            <a class="da_header-nav-item" href="#Features">Features</a>
+            <a class="da_header-nav-item" href="#CaseStudies">Case studies</a>
+            <a class="da_header-nav-item" href="#TryItNow">Try it now</a>
+            <!-- <a class="da_header-nav-item" href="#Testimonials">Testimonials</a> -->
+            <a class="da_header-nav-item" href="#ContactUs">Contact Us</a>
+        </nav>
+    </header>
+
+    <script>
+        var header = document.getElementById('da_header');
+
+        document.getElementById('da_headerNavBtn').addEventListener('click', function () {
+            header.classList.toggle('daOpen');
+        });
+
+        document.getElementById('da_headerNavMobile').addEventListener('click', function (event) {
+            if (event.target.classList.contains('da_header-nav-item')) {
+                header.classList.toggle('daOpen');
+            }
+        });
+    </script>
+
+
+<div class="da_wrapper">
+			   
+<div class="da_enter-bg"></div>
+
+<section id="da_enterSection">
+    <div class="da_container da_enter-container">
+        <div class="da_enter-block">
+            <h1 class="da_enter-heading">SAMA</h1>
+            <h2 class="da_enter-heading2">Simple but Advanced Messaging Alternative</h2>
+            <div class="da_enter-text">
+                Run your own chat backend with ease using the latest technologies from the real-time world
+            </div>
+            <a href="#TryItNow" class="da_btn da_btn-green">Try it now</a>
+        </div>
+        <div class="da_enter-block-img"></div>
+    </div>
+</section>
+
+<section id="Features">
+    <div class="da_container services">
+        <h2 class="services-heading">SAMA features</h2>
+        <h3 class="services-heading-desc">
+            Powerful but easy in use alternative to existing real-time messaging platforms and services.
+        </h3>
+        <div class="services-block">
+            <div class="service">
+                <div class="service-icon service-icon-mobile"></div>
+                <h3 class="service-heading">Messaging</h3>
+                <p class="service-text">
+                    State of the art messaging API, with rich media messages, statuses, with a way to send to a user, a group of users
+                </p>
+                <div class="service-list">
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Private and group chats</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Typing/Sent/Read statuses</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">File attachments</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Messages history API</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-icon service-icon-design"></div>
+                <h3 class="service-heading">Users management</h3>
+                <p class="service-text">
+                    Powerful users management with authorization, edit profile, users search and block list supported.
+                </p>
+                <div class="service-list">
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">User authorization</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Edit profile</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Users search</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Block list</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-icon service-icon-web"></div>
+                <h3 class="service-heading">Multi devices support</h3>
+                <p class="service-text">
+                  Server allows for people to be always connected using multiple devices and flexible Online/Offline mesages delivery
+                </p>
+                <div class="service-list">
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Multiple user devices supported</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Online/Offline mesages delivery</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Deliver message to all user's devices</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-block">
+            <div class="service">
+                <div class="service-icon service-icon-web"></div>
+                <h3 class="service-heading">Last activity</h3>
+                <p class="service-text">
+                  Server keeps track who is online, offline and provides a handy API to manage it in client apps
+                </p>
+                <div class="service-list">
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Manage online, offline status</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Retrieve user's last activity</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Last activity subscription API</div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-icon service-icon-web"></div>
+                <h3 class="service-heading">Push notifications</h3>
+                <p class="service-text">
+                    Receive messages even if offline via alternative message delivery methods - Push Notifications
+                </p>
+                <div class="service-list">
+                    <div class="service-list">
+                        <div class="service-list-item">
+                            <div class="service-list-item-marker"></div>
+                            <div class="service-list-item-name">Receive messages even if offline</div>
+                        </div>
+                        <div class="service-list-item">
+                            <div class="service-list-item-marker"></div>
+                            <div class="service-list-item-name">APNS/FCM/Web push notifications supported</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-icon service-icon-web"></div>
+                <h3 class="service-heading">Clustering</h3>
+                <p class="service-text">
+                    Server clustering supported out of the box to support large loads / large user base over extended period of time
+                </p>
+                <div class="service-list">
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Support large loads</div>
+                    </div>
+                    <div class="service-list-item">
+                        <div class="service-list-item-marker"></div>
+                        <div class="service-list-item-name">Support large user base</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="TryItNow">
+  <div class="da_container case-studies">
+      <h2 class="case-studies-heading">Try it now</h2>
+      <h3 class="case-studies-heading-desc try-it-now-heading-desc">
+          Go to <a href="https://github.com/SAMA-Communications/sama-server" alt="Try it now link">https://github.com/SAMA-Communications/sama-server</a> and check it all in action right now
+      </h3>
+  </div>
+</section>
+
+<section id="CaseStudies">
+    <div class="da_container case-studies">
+        <h2 class="case-studies-heading">Case Studies</h2>
+        <h3 class="case-studies-heading-desc">
+            Take a quick tour through the set of the projects that we have successfully delivered to out clients
+        </h3>
+        <div class="case-studies-main-block">
+            <div class="case-studies-block">
+                <div class="case-studies-block-info">
+                    <div class="case-studies-block-icon"></div>
+                    <h3 class="case-studies-block-heading">
+                        Team messenger & video calling collaboration app
+                    </h3>
+                    <p class="case-studies-block-text">
+                        The unified communications messenger and video calling app with 1-1 and group messaging, group video calling, contacts list,  offline mode and push notifications. 
+                        <br/><br/>
+                        All the modern messaging & video callings apps capabilities are supported. The app is built for Mobile, Web and Desktop which allows any platform communication from any place in the world.
+                    </p>
+                    <!-- <a href="#" class="case-studies-block-link">Read More</a> -->
+                </div>
+                <div class="case-studies-block-img case-studies-chat-img"></div>
+            </div>
+            <div class="case-studies-block">
+                <div class="case-studies-block-img case-studies-chat-bot-img"></div>
+                <div class="case-studies-block-info">
+                    <div class="case-studies-block-icon"></div>
+                    <h3 class="case-studies-block-heading">
+                        Sharing economy chat bot
+                    </h3>
+                    <p class="case-studies-block-text">
+                        Share your spare food, books, sport equipment or whatever you share in your daily life using Sharing economy chat bot. The bot is able to make our world a little bit greener and will help humans stay open and connected to each other.
+                        <br/><br/>
+                        The bot is built for Facebook Messenger, including natural language processing capabilities, cloud storage for shared items, location discovery, wide shared items discovery capabilities.
+                    </p>
+                    <!-- <a href="#" class="case-studies-block-link">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <section id="Testimonials">
+    <div class="da_container feedback">
+        <h2 class="feedback-heading">Feedback from our customers</h2>
+        <div class="feedback-comments">
+            <div class="feedback-comment feedback-comment-middle">
+                <div class="feedback-comment-icon"></div>
+                <div class="feedback-comment-text">
+                Thanks for the great cooperation! Great job! We were happy to work with your team. We found DartAreal team for developing our messaging hybrid app and the quality & final result are awesome!
+                </div>
+                <div class="feedback-comment-user">
+                    <div class="feedback-comment-avatar"></div>
+                    <div class="feedback-comment-info">
+                        <div class="feedback-comment-name">Natalie Crouse</div>
+                        <div class="feedback-comment-status">Assistant to Executive Director</div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-comment feedback-comment-bottom">
+                <div class="feedback-comment-icon"></div>
+                <div class="feedback-comment-text">
+                    DartAreal is one of the best JavaScript developers on Upwork. We'd hire the team again in an instant :) Highly recommended for any Web and mobile apps development.
+                </div>
+                <div class="feedback-comment-user">
+                    <div class="feedback-comment-avatar"></div>
+                    <div class="feedback-comment-info">
+                        <div class="feedback-comment-name">Jack Choe</div>
+                        <div class="feedback-comment-status">CEO</div>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-comment feedback-comment-top">
+                <div class="feedback-comment-icon"></div>
+                <div class="feedback-comment-text">
+                    These guys are WebRTC professionals. I found DartAreal for my video conf project. Excellent project planning,  high-quality developers and QA. Highly recommended!
+                </div>
+                <div class="feedback-comment-user">
+                    <div class="feedback-comment-avatar"></div>
+                    <div class="feedback-comment-info">
+                        <div class="feedback-comment-name">Dan Marfol</div>
+                        <div class="feedback-comment-status">CTO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="ContactUs">
+    <div class="da_container da_contact">
+        <h1 class="da_contact-heading">Contact Us</h1>
+        <div class="da_contact-heading-desc">
+            Request consultancy on the project
+        </div>
+        <div class="da_contact-contact-info">
+            <!-- <a class="da_contact-contact-info-call" href="tel:+380992652644">+38 099 265 26 44</a>
+            or -->
+            <a class="da_contact-contact-info-email" href="mailto:info@SAMA.com">info@SAMA.com</a>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<footer id="da_footer">
+  <div class="da_container da_footer-grid">
+      <div class="da_footer-row da_footer-row-info">
+          <a href="/">
+              <div class="da_footer-info-logo"></div>
+          </a>
+          <span class="da_footer-info-copyright">© 2023 SAMA</span>
+      </div>
+      <div class="da_footer-row da_footer-row-home">
+          <div class="da_footer-row-nav-head">HOME</div>
+          <a class="da_footer-row-nav-item" href="#Features">Features</a>
+          <a class="da_footer-row-nav-item" href="#CaseStudies">Case studies</a>
+          <a class="da_footer-row-nav-item" href="#TryItNow">Try it now</a>
+          <!-- <a class="da_footer-row-nav-item" href="#Testimonials">Testimonials</a> -->
+      </div>
+      <div class="da_footer-row da_footer-row-contact">
+          <div class="da_footer-row-nav-head">CONTACT</div>
+          <a class="da_footer-row-contact-email" href="mailto:info@dartareal.com">info@SAMA.com</a>
+          <a class="da_footer-row-contact-us" href="#ContactUs">Contact Us</a>
+      </div>
+  </div>
+</footer>
+  
+</body>
+
+</html>

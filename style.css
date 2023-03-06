@@ -1,0 +1,14 @@
+/*
+Theme Name: Dart Areal 2019
+Author: The DartAreal team
+Description: Dart Areal 2019
+Version: 1.0.0
+Tags: DartAreal
+*/
+
+@import './styles/reset.css';
+@import './styles/fonts.css';
+@import './styles/header.css';
+@import './styles/footer.css';
+@import './styles/home.css';
+@import './styles/common.css';
