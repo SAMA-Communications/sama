@@ -150,6 +150,7 @@
  */
 .services {
   padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,12 +174,21 @@
   justify-content: space-around;
   align-items: flex-start
 }
+#Features > div > div:nth-child(4){
+  margin-top: 30px;
+}
 .service {
   padding: 15px;
   max-width: 330px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+.service > div:nth-child(1){
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  align-items: center;
 }
 .service-icon {
   width: 40px;
@@ -265,8 +275,12 @@
 /*
  * SERVICES SECTION
  */
+#TryItNow {
+  background-color: #f8f9fb;
+}
 .case-studies {
   padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -318,6 +332,11 @@
   flex-direction: column;
   align-items: flex-start;
 }
+.case-studies-block-info > div:nth-child(1){
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .case-studies-block-icon {
   width: 100px;
   height: 100px;
@@ -328,7 +347,7 @@
 }
 .case-studies-block-heading {
   font-size: 19px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .case-studies-block-text {
   font-size: 16px;
@@ -523,7 +542,7 @@
  * FEEDBACK SECTION
  */
 #ContactUs {
-  padding: 100px 0;
+  padding-bottom: 100px;
 }
 .da_contact {
   display: flex;
