@@ -25,7 +25,10 @@ export default function Layout() {
 					</div>
 				</div>
 			</header>
-			<Outlet />
+			<div className=" bg-bg-color relative px-10 pt-[72px]">
+				<Outlet />
+			</div>
+
 			<footer className="bg-mid-purp h-[402px] flex flex-col pl-10 z-20 relative">
 				<div className="flex mt-10 gap-36">
 					<div>

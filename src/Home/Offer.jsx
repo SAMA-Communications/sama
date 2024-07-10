@@ -9,7 +9,7 @@ function Offer() {
 				className="absolute left-[296.02px] top-[-96px]"
 				alt=""
 			/>
-			<div className="flex  pt-[72px] gap-2">
+			<div className="flex  gap-2">
 				<div className="pt-[92px] relative z-20 flex flex-col gap-10 max-w-[648px]">
 					<h1 className="font-oxanium text-[56px] ">
 						Next-Gen open source chat server

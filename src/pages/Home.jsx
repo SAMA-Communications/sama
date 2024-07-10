@@ -6,7 +6,7 @@ import Release from '../Home/Release'
 //3178 main pxs
 export default function Home() {
 	return (
-		<div className="bg-bg-color relative px-10 ">
+		<>
 			<Offer />
 			<Features />
 			<Stack />
@@ -23,6 +23,6 @@ export default function Home() {
 				</div>
 				<img src="/static/Homepage/quotes.svg" alt="" />
 			</div>
-		</div>
+		</>
 	)
 }
