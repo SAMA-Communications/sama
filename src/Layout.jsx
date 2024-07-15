@@ -44,7 +44,9 @@ export default function Layout() {
 						</div>
 					</div>
 					<div className="flex flex-col gap-3">
-						<p className=" font-oxanium">Contacts</p>
+						<Link to="contacts" className=" font-oxanium">
+							Contacts
+						</Link>
 						<div className="flex flex-col gap-2 text-color-default font-sofiaSans">
 							<Link to="/">Phone number</Link>
 							<Link to="/">Email address</Link>

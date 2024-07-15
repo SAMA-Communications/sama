@@ -10,13 +10,11 @@ function About() {
 				alt=""
 			/>
 			<div className="z-10 relative w-full flex flex-col items-center">
-				<div className="w-full flex justify-center ">
-					<div className=" flex flex-col gap-8 items-center font-oxanium w-[742px] ">
-						<h6 className=" text-[28px] leading-6 ">A new sense of security</h6>
-						<h1 className=" text-5xl leading-[56px] text-center">
-							Giving you a freedom to communicate on your own terms
-						</h1>
-					</div>
+				<div className=" flex flex-col gap-8 items-center font-oxanium w-[742px] ">
+					<h6 className=" text-[28px] leading-6 ">A new sense of security</h6>
+					<h1 className=" text-5xl leading-[56px] text-center">
+						Giving you a freedom to communicate on your own terms
+					</h1>
 				</div>
 				<div className="flex flex-col gap-8 items-center mt-20">
 					<h5 className=" font-oxanium text-[32px] leading-[42px]">
