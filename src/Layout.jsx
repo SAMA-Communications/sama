@@ -2,26 +2,37 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 export default function Layout() {
 	return (
-		<div className="w-[1440px] relative">
+		<div className=" min-w-[1444px] relative">
 			<header className="h-24  px-10 py-6 bg-mid-purp z-20 relative">
 				<div className="flex gap-[10px] justify-between items-center">
-					<div>
+					<Link to="/">
 						<img src="static/Layout/header-sama.svg" alt="" />
-					</div>
+					</Link>
 					<div className=" flex gap-14 text-xl font-oxanium">
 						<Link to="/" className="h-6">
 							Home
 						</Link>
-						<Link to="/docs"> Docs</Link>
-						<Link to="/pricing"> Pricing</Link>
-						<Link to="/about-us"> About Us</Link>
+						<Link to="docs"> Docs</Link>
+						<Link to="pricing"> Pricing</Link>
+						<Link to="about-us"> About Us</Link>
 					</div>
+
 					<div className="flex gap-4 items-center">
-						<img src="static/Layout/github-icon-purp.svg" alt="" />
-						<button className=" bg-transparent h-10 rounded-[40px] px-6 py-[10px] border-2 border-light-purp flex gap-1 items-center text-light-purp font-sofiaSans font-semibold">
+						<a
+							href="https://github.com/SAMA-Communications"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img src="static/Layout/github-icon-purp.svg" alt="" />
+						</a>
+
+						<Link
+							to="contacts"
+							className=" bg-transparent h-10 rounded-[40px] px-6 py-[10px] border-2 border-light-purp flex gap-1 items-center text-light-purp font-sofiaSans font-semibold"
+						>
 							<img src="static/Layout/phone_iphone_24px.svg" alt="" />
 							Contact us
-						</button>
+						</Link>
 					</div>
 				</div>
 			</header>

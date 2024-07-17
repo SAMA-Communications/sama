@@ -2,7 +2,7 @@ import React from 'react'
 
 function Stack() {
 	return (
-		<div className="mt-24 flex relative">
+		<div className="mt-24 flex relative justify-around">
 			<div className="flex flex-col gap-10 ml-32 font-oxanium">
 				<h2 className="  text-4xl leading-[68px]">SAMA stack</h2>
 				<div className=" flex flex-col gap-6 text-[28px] leading-6">
@@ -23,11 +23,12 @@ function Stack() {
 					</p>
 				</div>
 			</div>
-			<img
+			<img src="/static/Homepage/squares-3.svg" className=" mt-9" alt="" />
+			{/* <img
 				src="/static/Homepage/squares-3.svg"
 				className="absolute left-[845px] mt-9"
 				alt=""
-			/>
+			/> */}
 		</div>
 	)
 }

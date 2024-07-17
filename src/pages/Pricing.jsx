@@ -5,7 +5,7 @@ function Pricing() {
 		<div>
 			<img
 				src="static/Pricing/bg-pricing.svg"
-				className="absolute top-[-96px] left-[0]"
+				className="absolute top-[-96px] right-[0]"
 				alt=""
 			/>
 			<div className="z-10 relative">

@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Button from '../components/Button'
+
 function Release() {
 	return (
 		<>
@@ -8,8 +10,21 @@ function Release() {
 				className="absolute top-[1851px] left-0"
 				alt=""
 			/>
-			<div className="mt-52 flex z-10 relative ">
-				<div className=" relative basis-1/2">
+			<div className="mt-52 flex z-10 relative justify-around  ">
+				{/* <div className=" relative basis-1/2 ">
+					<img
+						src="/static/Homepage/iphone.svg"
+						className="relative top-[40px] left-[379px]"
+						alt=""
+					/>
+					<img
+						src="/static/Homepage/iphone.svg"
+						className="relative top-[-140px] left-[255px]"
+						alt=""
+					/>
+				
+				</div> */}
+				{/* <div className=" relative basis-1/2">
 					<img
 						src="/static/Homepage/iphone.svg"
 						className="absolute top-[40px] left-[379px]"
@@ -20,7 +35,19 @@ function Release() {
 						className="absolute top-[254px] left-[255px]"
 						alt=""
 					/>
-					{/* top-[2153px] */}
+					 top-[2153px] 
+				</div> */}
+				<div className=" max-[2000px]:basis-1/2 ">
+					<img
+						src="/static/Homepage/iphone.svg"
+						className="absolute top-[40px] left-[379px]"
+						alt=""
+					/>
+					<img
+						src="/static/Homepage/iphone.svg"
+						className="absolute top-[254px] left-[255px]"
+						alt=""
+					/>
 				</div>
 				<div className=" w-[648px] mt-[108px] flex flex-col gap-14">
 					<div className=" flex flex-col gap-8">
@@ -37,7 +64,9 @@ function Release() {
 							sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 					</div>
-					<Button>Contact us</Button>
+					<Link to="contacts">
+						<Button>Contact us</Button>
+					</Link>
 				</div>
 			</div>
 		</>

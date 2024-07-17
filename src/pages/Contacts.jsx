@@ -2,10 +2,10 @@ import React from 'react'
 import ContactForm from '../Contacts/ContactForm'
 function Contacts() {
 	return (
-		<div className="h-[792px]">
+		<div className="min-h-[792px] pb-[72px]">
 			<img
 				src="static/Contacts/contacts-bg.svg"
-				className="absolute right-0 top-[-96px]"
+				className="absolute right-0 bottom-0"
 				alt=""
 			/>
 

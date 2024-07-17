@@ -6,7 +6,7 @@ function Feature({ svg, title, text, points }) {
 			<div className="flex flex-col gap-4">
 				<div className="flex items-center gap-4">
 					<img src={svg} alt="" />
-					<h2 className=" font-oxanium text-2xl ">{title}Title</h2>
+					<h2 className=" font-oxanium text-2xl ">{title}</h2>
 				</div>
 				<div className="h-[90px]">
 					<p className=" font-sofiaSans font-medium text-base leading-[30px]">

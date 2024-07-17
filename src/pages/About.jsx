@@ -9,7 +9,7 @@ function About() {
 				className="absolute top-[-96px] left-0"
 				alt=""
 			/>
-			<div className="z-10 relative w-full flex flex-col items-center">
+			<div className="z-10 w-full flex flex-col items-center">
 				<div className=" flex flex-col gap-8 items-center font-oxanium w-[742px] ">
 					<h6 className=" text-[28px] leading-6 ">A new sense of security</h6>
 					<h1 className=" text-5xl leading-[56px] text-center">
@@ -50,7 +50,10 @@ function About() {
 				</div>
 				<Basics />
 				<Team />
-				<div className=" mt-[120px] flex gap-20 h-[225px] w-[1440px] justify-center items-center bg-gradient-to-r from-[#FD82D266] to-[#5F25BD66] mx-[-80px]">
+				<div className=" absolute h-[225px] bottom-0 w-full bg-gradient-to-r from-[#FD82D266] to-[#5F25BD66]">
+					{' '}
+				</div>
+				<div className=" mt-[120px] flex gap-20 h-[225px] justify-center items-center z-10 ">
 					<div className="flex flex-col justify-center h-[120px]">
 						<div className="flex items-center h-8">
 							<img

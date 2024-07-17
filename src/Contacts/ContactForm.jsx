@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import Button from '../components/Button'
 import './style.module.css'
+
 function ContactForm() {
 	const {
 		register,
@@ -99,6 +100,7 @@ function ContactForm() {
 							</div>
 						)}
 					</div>
+
 					<Button
 						type="submit"
 						disabled={!isValid}

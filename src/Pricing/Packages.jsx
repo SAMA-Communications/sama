@@ -2,7 +2,7 @@ import React from 'react'
 import Package from './Package'
 function Packages() {
 	return (
-		<div className="flex gap-6 mt-10 pb-56">
+		<div className="flex gap-6 justify-around mt-10 pb-56">
 			<Package
 				title={'Free'}
 				price={'0$'}
