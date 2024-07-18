@@ -2,7 +2,8 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 export default function Layout() {
 	return (
-		<div className=" min-w-[1444px] relative">
+		<div className="  relative">
+			{/* min-w-[1440px] */}
 			<header className="h-24  px-10 py-6 bg-mid-purp z-20 relative">
 				<div className="flex gap-[10px] justify-between items-center">
 					<Link to="/">

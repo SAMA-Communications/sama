@@ -4,7 +4,7 @@ function Features() {
 	return (
 		<div className="mt-20 z-10 relative">
 			<h1 className=" font-oxanium text-4xl text-center">SAMA Features</h1>
-			<div className="grid grid-cols-3 mt-10 gap-8 justify-items-center">
+			<div className="grid main:grid-cols-3 lg:grid-cols-2 grid-cols-1 mt-10 gap-8 justify-items-center ">
 				<Feature
 					svg={'/static/Homepage/Frame-132.svg'}
 					title={'Messaging'}

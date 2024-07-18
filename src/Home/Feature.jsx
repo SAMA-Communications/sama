@@ -2,7 +2,7 @@ import React from 'react'
 
 function Feature({ svg, title, text, points }) {
 	return (
-		<div className="w-[437px] h-[342px] rounded-[40px] p-6 bg-mid-purp border border-transparent hover:border-light-purp shadow-[0_4px_4px_#00000040]">
+		<div className="sm:w-[437px] w-80 h-[342px] rounded-[40px] p-6 bg-mid-purp border border-transparent hover:border-light-purp shadow-[0_4px_4px_#00000040]">
 			<div className="flex flex-col gap-4">
 				<div className="flex items-center gap-4">
 					<img src={svg} alt="" />
