@@ -5,17 +5,17 @@ function Contacts() {
 		<div className="min-h-[792px] pb-[72px]">
 			<img
 				src="static/Contacts/contacts-bg.svg"
-				className="absolute right-0 bottom-0"
+				className="absolute right-0 bottom-0 max-lg:hidden"
 				alt=""
 			/>
 
-			<div className="flex z-10 relative justify-around items-center">
+			<div className="flex max-xl:flex-col max-xl:gap-16 z-10 relative justify-around items-center">
 				<div className="flex flex-col gap-12">
-					<h1 className=" font-oxanium text-5xl leading-[42px]">
+					<h1 className=" font-oxanium sm:text-5xl xs:text-4xl text-2xl leading-[42px]">
 						Get in touch with us
 					</h1>
 					<img src="static/Contacts/julia_smth_wants.svg" alt="" />
-					<div>
+					<div className="max-xl:hidden">
 						<h6 className=" font-sofiaSans text-base leading-[30px]">
 							Follow us on
 						</h6>

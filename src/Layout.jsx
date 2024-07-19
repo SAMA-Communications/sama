@@ -1,24 +1,30 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import Example from './Layout/gamburger'
 export default function Layout() {
 	return (
 		<div className="  relative">
 			{/* min-w-[1440px] */}
 			<header className="h-24  px-10 py-6 bg-mid-purp z-20 relative">
-				<div className="flex gap-[10px] justify-between items-center">
+				<div className="flex gap-[10px] md:justify-between xs:justify-around justify-between items-center ">
 					<Link to="/">
 						<img src="static/Layout/header-sama.svg" alt="" />
 					</Link>
-					<div className=" flex gap-14 text-xl font-oxanium">
-						<Link to="/" className="h-6">
-							Home
-						</Link>
-						<Link to="docs"> Docs</Link>
-						<Link to="pricing"> Pricing</Link>
-						<Link to="about-us"> About Us</Link>
+					<div className="max-lg:hidden">
+						<div className=" flex gap-14 text-xl font-oxanium">
+							<Link to="/" className="h-6">
+								Home
+							</Link>
+							<Link to="docs"> Docs</Link>
+							<Link to="pricing"> Pricing</Link>
+							<Link to="about-us"> About Us</Link>
+						</div>
+					</div>
+					<div className="lg:hidden order-first ">
+						<Example />
 					</div>
 
-					<div className="flex gap-4 items-center">
+					<div className="flex gap-4 items-center max-md:hidden">
 						<a
 							href="https://github.com/SAMA-Communications"
 							target="_blank"
@@ -41,33 +47,43 @@ export default function Layout() {
 				<Outlet />
 			</div>
 
-			<footer className="bg-mid-purp h-[402px] flex flex-col pl-10 z-20 relative">
-				<div className="flex mt-10 gap-36">
+			<footer className="bg-mid-purp md:h-[402px] flex flex-col  pl-10 z-20 relative ">
+				<div className="flex max-md:flex-col mt-10 lg:gap-36 md:gap-24 gap-12 max-md:items-center">
 					<div>
-						<img src="static/Layout/footer-sama.svg" alt="" />
-					</div>
-					<div className="flex flex-col gap-3">
-						<p className="font-oxanium">Content</p>
-						<div className="flex flex-col gap-2 text-color-default font-sofiaSans ">
-							<Link to="/features">Features</Link>
-							<Link to="/docs">Docs</Link>
-							<Link to="/pricing">Pricing</Link>
-							<Link to="/about-us">About us</Link>
-						</div>
-					</div>
-					<div className="flex flex-col gap-3">
-						<Link to="contacts" className=" font-oxanium">
-							Contacts
+						<Link to="/">
+							<img src="static/Layout/footer-sama.svg" alt="" />
 						</Link>
-						<div className="flex flex-col gap-2 text-color-default font-sofiaSans">
-							<Link to="/">Phone number</Link>
-							<Link to="/">Email address</Link>
+					</div>
+					<div className="flex lg:gap-36 gap-24">
+						<div className="flex flex-col gap-3">
+							<p className="font-oxanium">Content</p>
+							<div className="flex flex-col gap-2 text-color-default font-sofiaSans ">
+								<Link to="/features">Features</Link>
+								<Link to="/docs">Docs</Link>
+								<Link to="/pricing">Pricing</Link>
+								<Link to="/about-us">About us</Link>
+							</div>
+						</div>
+						<div className="flex flex-col gap-3">
+							<Link to="contacts" className=" font-oxanium">
+								Contacts
+							</Link>
+							<div className="flex flex-col gap-2 text-color-default font-sofiaSans">
+								<Link to="/">Phone number</Link>
+								<Link to="/">Email address</Link>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div className=" mt-8 mr-10  h-[1px] bg-gradient-to-r from-[#FD82D2] to-[#5F25BD]" />
-				<div className="flex gap-6 mt-[26px]">
-					<img src="static/Layout/github-icon-white.svg" alt="" />
+				<div className="flex gap-6 my-[26px]">
+					<a
+						href="https://github.com/SAMA-Communications"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img src="static/Layout/github-icon-white.svg" alt="" />
+					</a>
 					<img src="static/Layout/M-Vector.svg" alt="" />
 				</div>
 			</footer>

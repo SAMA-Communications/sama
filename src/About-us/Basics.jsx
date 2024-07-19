@@ -2,7 +2,7 @@ import React from 'react'
 import Basic from './Basic'
 function Basics() {
 	return (
-		<div className="flex flex-col gap-8 w-[876px] mt-20 font-oxanium">
+		<div className="flex flex-col gap-8 lg:w-[876px] mt-20 font-oxanium">
 			<Basic
 				title={'Interoperable'}
 				description={

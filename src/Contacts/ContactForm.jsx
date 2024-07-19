@@ -17,10 +17,10 @@ function ContactForm() {
 		reset()
 	}
 	return (
-		<div className=" bg-[#352E57] w-[560px] min-h-[652px] rounded-[40px]">
+		<div className=" bg-[#352E57] sm:w-[560px] min-h-[652px] rounded-[40px]">
 			<div className=" m-10 flex flex-col gap-8">
 				<h4
-					className=" font-oxanium text-2xl
+					className=" font-oxanium sx:text-2xl text-xl
 				 leading-6"
 				>
 					Send a message
@@ -48,7 +48,7 @@ function ContactForm() {
 							className=" bg-[#585274] border border-transparent  focus:border-[#958CF8] outline-none rounded-[16px] h-[60px] w-full px-6 py-[15px] "
 						/>
 						{errors?.fullName && (
-							<div className=" ml-6 mt-4 font-oxanium text-rose-600">
+							<div className=" sm:ml-6 mt-4 font-oxanium text-rose-600">
 								<p> {errors?.fullName?.message || 'Error'} </p>
 							</div>
 						)}
@@ -67,7 +67,7 @@ function ContactForm() {
 							className=" bg-[#585274] border border-transparent  focus:border-[#958CF8] outline-none rounded-[16px] h-[60px] w-full px-6 py-[15px]"
 						/>
 						{errors?.email && (
-							<div className=" ml-6 mt-4 font-oxanium text-rose-600">
+							<div className=" sm:ml-6 mt-4 font-oxanium text-rose-600">
 								<p> {errors?.email?.message || 'Error'} </p>
 							</div>
 						)}
@@ -95,7 +95,7 @@ function ContactForm() {
 							})}
 						></textarea>
 						{errors?.body && (
-							<div className=" ml-6 mt-4 font-oxanium text-rose-600">
+							<div className=" sm:ml-6 mt-4 font-oxanium text-rose-600">
 								<p> {errors?.body?.message || 'Error'} </p>
 							</div>
 						)}

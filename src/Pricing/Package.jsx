@@ -2,13 +2,13 @@ import React from 'react'
 import Button from '../components/Button'
 function Package({ title, price, points, headers }) {
 	return (
-		<div className="relative bg-light-purp rounded-[40px] w-[433px] h-[524px] mb-10 ">
+		<div className="relative bg-light-purp rounded-[40px] sm:w-[433px] w-80 h-[524px] mb-10 ">
 			<div className="font-oxanium pt-10 pl-12 ">
 				<h3 className="  text-[32px] leading-[42px]">{title}</h3>
 				<h4 className=" text-2xl leading-6 mt-4 text-[#E9E8F4]">{price} </h4>
 			</div>
 			<div
-				className=" absolute top-[162px] bg-[#E9E8F4] w-[437px] 
+				className=" absolute top-[162px] bg-[#E9E8F4] sm:w-[437px] w-80
 			 flex flex-col pl-12 py-10 rounded-t-[75px] rounded-b-[40px] gap-10"
 			>
 				<div>
