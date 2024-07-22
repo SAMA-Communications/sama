@@ -52,9 +52,9 @@ function About() {
 				</div>
 				<Basics />
 				<Team />
-				<div className=" absolute md:h-[225px] h-[660px] bottom-0 w-full bg-gradient-to-r from-[#FD82D266] to-[#5F25BD66]"></div>
-				<div className=" mt-[120px] flex max-md:flex-col md:gap-20 gap-2 md:h-[225px] justify-center items-center z-10">
-					<div className="flex flex-col h-[150px] max-md:w-[160px]">
+				<div className=" absolute min-[854px]:h-[225px] xs:h-[340px] h-[660px] bottom-0 w-full bg-gradient-to-r from-[#FD82D266] to-[#5F25BD66]"></div>
+				<div className=" mt-[120px] grid min-[854px]:grid-cols-4 xs:grid-cols-2 grid-cols-1 max-[853px]:grid-rows-2 max-xs:grid-rows-4 gap-[10px] xl:w-2/3 w-full min-[854px]:h-[200px] items-center justify-items-center z-10  ">
+					<div className="flex flex-col h-[150px] max-[853px]:w-[160px] ">
 						<div className="flex items-center h-8">
 							<img
 								src="static/About/npm.svg"
@@ -70,7 +70,7 @@ function About() {
 							Npm downloads
 						</p>
 					</div>
-					<div className="flex flex-col h-[150px] max-md:w-[160px]">
+					<div className="flex flex-col h-[150px] max-[853px]:w-[160px] ">
 						<img
 							src="static/About/codicon_github.svg"
 							width={32}
@@ -84,7 +84,7 @@ function About() {
 							GitHub stars
 						</p>
 					</div>
-					<div className="flex flex-col max-md:w-[160px] h-[150px] ">
+					<div className="flex flex-col h-[150px] max-[853px]:w-[160px]">
 						<img
 							src="static/About/prime_twitter.svg"
 							width={32}
@@ -96,7 +96,7 @@ function About() {
 							X followers
 						</p>
 					</div>
-					<div className="flex flex-col max-md:w-[160px] h-[150px] ">
+					<div className="flex flex-col h-[150px] max-[853px]:w-[160px]">
 						<img src="static/About/discord.svg" width={32} height={32} alt="" />
 						<p className="mt-4 font-oxanium text-[32px] leading-[42px]">
 							6,600+

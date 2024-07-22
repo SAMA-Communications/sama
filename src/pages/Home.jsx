@@ -11,7 +11,7 @@ export default function Home() {
 			<Features />
 			<Stack />
 			<Release />
-			<div className="lg:mt-96 mt-64 pb-28 flex justify-center gap-5 z-10 relative">
+			<div className="lg:mt-96 mt-16 pb-28 flex justify-center gap-5 z-10 relative">
 				<div>
 					<img src="/static/Homepage/quotes.svg" alt="" />
 				</div>
