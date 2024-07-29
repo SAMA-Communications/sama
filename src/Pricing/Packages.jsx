@@ -13,17 +13,7 @@ function Packages() {
 					'Community Support',
 					'GPL-3.0 Code License',
 				]}
-			/>
-			<Package
-				title={'Pro'}
-				price={'200$'}
-				points={[
-					'All Chat & Calling Features',
-					'Full API Access',
-					'E2EE',
-					'Community Support',
-					'GPL-3.0 Code License',
-				]}
+				isFree={true}
 			/>
 			<Package
 				title={'Enterprise'}
@@ -35,6 +25,19 @@ function Packages() {
 					'Commercial Code License',
 					'XMPP bridge Add-On',
 				]}
+				isFree={false}
+			/>
+			<Package
+				title={'Premium Support'}
+				price={'Custom'}
+				points={[
+					'Dedicated support channel',
+					'Weekly check-ins with core team',
+					'SLA-backed response time',
+					'Scoping and architectural guidance',
+					'Priority bug fixing and troubleshooting',
+				]}
+				isFree={false}
 			/>
 		</div>
 	)

@@ -5,7 +5,7 @@ function Pricing() {
 		<div>
 			<img
 				src="static/Pricing/bg-pricing.svg"
-				className="absolute top-[-96px] right-[0] max-main:hidden"
+				className="absolute top-0 right-[0] max-main:hidden"
 				alt=""
 			/>
 			<div className="z-10 relative">
@@ -13,10 +13,16 @@ function Pricing() {
 					<h1 className=" font-oxanium xs:text-5xl leading-[42px] text-4xl">
 						SAMA Pricing
 					</h1>
-					<p className=" font-sofiaSans text-xl leading-[30px] text-color-default max-md:text-center">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
+					<div>
+						<p className=" font-sofiaSans text-xl leading-[30px] text-color-default max-md:text-center">
+							Explore our flexible pricing plans designed to suit your needs,
+							whether you're an individual, a small business, or an enterprise.
+						</p>
+						<p className="font-sofiaSans text-xl leading-[30px] text-color-default xl:text-center max-md:text-center xl:mt-2">
+							Choose the perfect plan for you and unlock the full potential of
+							our services
+						</p>
+					</div>
 				</div>
 				<Packages />
 			</div>

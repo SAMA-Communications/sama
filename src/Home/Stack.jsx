@@ -8,18 +8,47 @@ function Stack() {
 				<div className=" flex flex-col gap-6 main:text-[28px] sm:text-2xl text-lg leading-6 ">
 					<p>
 						A modern frontend for your{' '}
-						<span className=" text-light-purp">conversations</span>
+						<a
+							href="https://github.com/SAMA-Communications/sama-client"
+							target="_blank"
+							rel="noopener noreferrer"
+							className=" text-light-purp"
+						>
+							conversations
+						</a>
 					</p>
 					<p>
 						A clustering supported backend for large{' '}
-						<span className=" text-light-purp">loads</span>
+						<a
+							href="http://developers.samacloud.io/clustering"
+							target="_blank"
+							rel="noopener noreferrer"
+							className=" text-light-purp"
+						>
+							loads
+						</a>
 					</p>
 					<p>
 						An admin dashboard for managing{' '}
-						<span className=" text-light-purp">purpose</span>
+						<a
+							href="https://github.com/SAMA-Communications/sama-server-dashboard"
+							target="_blank"
+							rel="noopener noreferrer"
+							className=" text-light-purp"
+						>
+							purpose
+						</a>
 					</p>
 					<p>
-						An easy-to-use <span className=" text-light-purp">API</span>
+						An easy-to-use{' '}
+						<a
+							href="https://developers.samacloud.io"
+							target="_blank"
+							rel="noopener noreferrer"
+							className=" text-light-purp"
+						>
+							API
+						</a>
 					</p>
 				</div>
 			</div>

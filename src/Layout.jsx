@@ -15,7 +15,13 @@ export default function Layout() {
 							<Link to="/" className="h-6">
 								Home
 							</Link>
-							<Link to="docs"> Docs</Link>
+							<a
+								href="https://developers.samacloud.io"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Docs
+							</a>
 							<Link to="pricing"> Pricing</Link>
 							<Link to="about-us"> About Us</Link>
 						</div>
@@ -54,37 +60,45 @@ export default function Layout() {
 							<img src="static/Layout/footer-sama.svg" alt="" />
 						</Link>
 					</div>
-					<div className="flex lg:gap-36 gap-24">
+					<div className="w-full flex lg:gap-36 md:gap-24 max-md:justify-around max-sm:justify-between pr-10">
 						<div className="flex flex-col gap-3">
-							<p className="font-oxanium">Content</p>
+							<p className="font-oxanium">Product</p>
 							<div className="flex flex-col gap-2 text-color-default font-sofiaSans ">
-								<Link to="/features">Features</Link>
 								<Link to="/docs">Docs</Link>
 								<Link to="/pricing">Pricing</Link>
 								<Link to="/about-us">About us</Link>
 							</div>
 						</div>
 						<div className="flex flex-col gap-3">
-							<Link to="contacts" className=" font-oxanium">
-								Contacts
-							</Link>
+							<p className=" font-oxanium">Contacts</p>
 							<div className="flex flex-col gap-2 text-color-default font-sofiaSans">
-								<Link to="/">Phone number</Link>
-								<Link to="/">Email address</Link>
+								<Link to="/contacts">Contact Us</Link>
+								<p>info@samacloud.io</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className=" mt-8 mr-10  h-[1px] bg-gradient-to-r from-[#FD82D2] to-[#5F25BD]" />
-				<div className="flex gap-6 my-[26px]">
-					<a
-						href="https://github.com/SAMA-Communications"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<img src="static/Layout/github-icon-white.svg" alt="" />
-					</a>
-					<img src="static/Layout/M-Vector.svg" alt="" />
+				<div className="my-[26px] flex justify-between mr-10">
+					<p className=" font-sofiaSans max-md:text-sm">
+						Copyright &copy; 2022–2024 SAMA
+					</p>
+					<div className="flex gap-6 items-center ">
+						<a
+							href="https://github.com/SAMA-Communications"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img src="static/Layout/github-icon-white.svg" alt="" />
+						</a>
+						<a
+							href="https://medium.com/sama-communications"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img src="static/Layout/Medium.svg" height="24px" alt="" />
+						</a>
+					</div>
 				</div>
 			</footer>
 		</div>

@@ -29,13 +29,11 @@ function Release() {
 							Release SAMA under your brand
 						</h2>
 						<p className="  font-sofiaSans text-xl text-color-default">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-							eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-							enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore eu fugiat
-							nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-							sunt in culpa qui officia deserunt mollit anim id est laborum.
+							Interested in customizing and releasing the SAMA server and client
+							under your unique brand? Contact us for comprehensive details and
+							to discuss the specific functionalities you need. Our team is
+							ready to help you tailor the SAMA server and client to align with
+							your brand's identity and technical requirements.
 						</p>
 					</div>
 					<Link to="contacts" className="max-xl:self-center">
