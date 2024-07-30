@@ -32,7 +32,6 @@ function Packages() {
 				price={'Custom'}
 				points={[
 					'Dedicated support channel',
-					'Weekly check-ins with core team',
 					'SLA-backed response time',
 					'Scoping and architectural guidance',
 					'Priority bug fixing and troubleshooting',
