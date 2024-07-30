@@ -4,7 +4,6 @@ import Example from './Layout/gamburger'
 export default function Layout() {
 	return (
 		<div className="  relative">
-			{/* min-w-[1440px] */}
 			<header className="h-24  px-10 py-6 bg-mid-purp z-20 relative">
 				<div className="flex gap-[10px] md:justify-between xs:justify-around justify-between items-center ">
 					<Link to="/">

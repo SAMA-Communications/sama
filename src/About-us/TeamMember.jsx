@@ -11,7 +11,6 @@ function TeamMember({ initials, position }) {
 				<p className=" font-sofiaSans text-xl leading-[30px] text-color-default">
 					{position}
 				</p>
-				<img src="static/About/in.svg" width="24" height="24" alt="" />
 			</div>
 		</div>
 	)

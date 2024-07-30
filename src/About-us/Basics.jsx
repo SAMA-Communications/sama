@@ -4,27 +4,27 @@ function Basics() {
 	return (
 		<div className="flex flex-col gap-8 lg:w-[876px] mt-20 font-oxanium">
 			<Basic
-				title={'Interoperable'}
+				title={'Simple'}
 				description={
-					'Break down communication silos using the native interoperability of Matrix.'
+					'The solutions that designed to be user-friendly and easy to integrate, ensuring a smooth setup process without the need for extensive technical knowledge.'
 				}
 			/>
 			<Basic
-				title={'End-to-end encrypted'}
+				title={'Advanced'}
 				description={
-					'Unlike email and traditional collaboration systems, Element is end-to-end encrypted and yet still gives organizations oversight of its communications.'
+					'Leveraging the latest advancements in technology, we provide powerful features that enhance the chat experience, including real-time messaging, multimedia support, and more.'
 				}
 			/>
 			<Basic
-				title={'Open standard'}
+				title={'Secure'}
 				description={
-					'Being built on an open standard, Element enables organizations to retain independence, avoid vendor lock-in and usher in the future of communication.'
+					'Security is at the core of our development process. We implement robust encryption protocols and stringent security measures to protect your data and ensure privacy.'
 				}
 			/>
 			<Basic
-				title={'Flexible'}
+				title={'Scalable'}
 				description={
-					'The Element app is powerful, flexible and easy-to-use; employees actually want to use it to collaborate productively in real time.'
+					'Whether you are a small startup or a large enterprise, our solution can handle your growing communication needs, ensuring optimal performance as your user base expands.'
 				}
 			/>
 		</div>
