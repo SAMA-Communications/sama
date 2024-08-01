@@ -1,9 +1,27 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 import Button from '../components/Button'
 import './style.module.css'
-
 function ContactForm() {
+	const form = useRef()
+
+	const sendEmail = () => {
+		emailjs
+			.sendForm('gmail', 'template_uwtof5i', form.current, {
+				publicKey: process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY,
+			})
+			.then(
+				() => {
+					console.log('SUCCESS!')
+				},
+				error => {
+					console.log('FAILED...', error.text)
+				}
+			)
+	}
+
 	const {
 		register,
 		formState: { errors, isValid },
@@ -13,7 +31,8 @@ function ContactForm() {
 		mode: 'onBlur',
 	})
 	const onSubmit = data => {
-		console.log(data)
+		// console.log(data)
+		sendEmail()
 		reset()
 	}
 	return (
@@ -27,6 +46,7 @@ function ContactForm() {
 				</h4>
 
 				<form
+					ref={form}
 					onSubmit={handleSubmit(onSubmit)}
 					className=" flex flex-col gap-6 text-xl leading-[30px] font-sofiaSans"
 				>
@@ -56,7 +76,7 @@ function ContactForm() {
 					<div>
 						<input
 							placeholder="Email*"
-							type="text"
+							type="email"
 							{...register('email', {
 								required: 'Field is required',
 								pattern: {
