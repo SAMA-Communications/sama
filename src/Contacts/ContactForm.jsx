@@ -2,16 +2,23 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { toast } from 'react-toastify'
 import Button from '../components/Button'
 import './style.module.css'
+
 function ContactForm() {
 	const form = useRef()
 
 	const sendEmail = () => {
 		emailjs
-			.sendForm('gmail', 'template_uwtof5i', form.current, {
-				publicKey: process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY,
-			})
+			.sendForm(
+				process.env.REACT_APP_SERVICE_ID,
+				process.env.REACT_APP_TEMPLATE_ID,
+				form.current,
+				{
+					publicKey: process.env.REACT_APP_EMAIL_JS_PUBLIC_KEY,
+				}
+			)
 			.then(
 				() => {
 					console.log('SUCCESS!')
@@ -33,7 +40,8 @@ function ContactForm() {
 	const onSubmit = data => {
 		// console.log(data)
 		sendEmail()
-		reset()
+		// reset()
+		toast.success('Your message was successfully sent')
 	}
 	return (
 		<div className=" bg-[#352E57] sm:w-[560px] min-h-[652px] rounded-[40px]">
