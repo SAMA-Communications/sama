@@ -20,7 +20,7 @@ function Stack() {
 					<p>
 						A clustering supported backend for large{' '}
 						<a
-							href="https://developers.samacloud.io/clustering"
+							href="#"
 							target="_blank"
 							rel="noopener noreferrer"
 							className=" text-light-purp"
@@ -42,7 +42,7 @@ function Stack() {
 					<p>
 						An easy-to-use{' '}
 						<a
-							href="https://developers.samacloud.io"
+							href="#"
 							target="_blank"
 							rel="noopener noreferrer"
 							className=" text-light-purp"
