@@ -44,7 +44,7 @@ function About() {
 				</div>
 
 				<Basics />
-				<Team />
+				{/* <Team /> */}
 				<ResumeBlock />
 			</div>
 		</div>
