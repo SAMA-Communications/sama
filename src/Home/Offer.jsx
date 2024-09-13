@@ -17,7 +17,7 @@ function Offer() {
 					</h1>
 					<p className="text-color-default font-sofiaSans font-medium  md:text-xl text-2xl leading-[30px] text-justify">
 						Unlock the potential of open source with a chat server that delivers
-						personalized, secure, and scalable solutions for all your
+						simple, secure, and scalable solutions for all your
 						communication needs.
 					</p>
 

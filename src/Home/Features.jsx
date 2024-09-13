@@ -15,7 +15,7 @@ function Features() {
             "Messages history API",
           ]}
           text={
-            "State of the art messaging API, with rich media messages, statuses, with a way to send to a user, a group of users"
+            "State of the art messaging API, with rich media messages, statuses, with a way to send to a user or a group of users"
           }
         />
         <Feature
