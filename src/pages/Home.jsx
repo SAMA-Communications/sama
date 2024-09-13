@@ -3,8 +3,11 @@ import Offer from '../Home/Offer'
 import Features from '../Home/Features'
 import Stack from '../Home/Stack'
 import Release from '../Home/Release'
-//3178 main pxs
+import { useTitle } from "react-use";
+
 export default function Home() {
+  useTitle("Open source chat server for mobile and web apps | Free, Secure, and Easy to Use");
+
 	return (
 		<>
 			<Offer />

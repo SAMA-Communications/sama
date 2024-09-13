@@ -1,5 +1,6 @@
 import React from "react";
 import ContactForm from "../Contacts/ContactForm";
+import { useTitle } from "react-use";
 
 function FollowUs() {
   return (
@@ -26,6 +27,8 @@ function FollowUs() {
 }
 
 export default function Contacts() {
+  useTitle("Get in touch: contact our team | SAMA");
+
   return (
     <div className="min-h-[700px] pb-[42px]">
       <img

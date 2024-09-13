@@ -2,7 +2,11 @@ import React from 'react'
 import Basics from '../About-us/Basics'
 import Team from '../About-us/Team'
 import ResumeBlock from '../About-us/ResumeBlock'
+import { useTitle } from "react-use";
+
 function About() {
+  useTitle("About SAMA chat open source server");
+
 	return (
 		<div>
 			<img

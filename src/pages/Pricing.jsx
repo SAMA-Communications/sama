@@ -1,7 +1,10 @@
 import React from 'react'
 import Packages from '../Pricing/Packages'
+import { useTitle } from "react-use";
 
 function Pricing() {
+  useTitle("Flexible pricing for open source chat | SAMA");
+    
 	return (
     <div>
       <img
