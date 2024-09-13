@@ -32,8 +32,7 @@ function ContactForm() {
 	const {
 		register,
 		formState: { errors, isValid },
-		handleSubmit,
-		reset,
+		handleSubmit
 	} = useForm({
 		mode: 'onBlur',
 	})
@@ -44,10 +43,10 @@ function ContactForm() {
 		toast.success('Your message was successfully sent')
 	}
 	return (
-    <div className=" bg-[#352E57] sm:w-[560px] min-h-[652px] rounded-[40px]">
-      <div className=" m-10 flex flex-col gap-8">
+    <div className="bg-[#352E57] sm:w-[560px] min-h-[585px] rounded-[40px]">
+      <div className="m-10 flex flex-col gap-8">
         <h4
-          className=" font-oxanium sx:text-2xl text-xl
+          className="font-oxanium sx:text-2xl text-xl
 				 leading-6"
         >
           Send a message
@@ -56,7 +55,7 @@ function ContactForm() {
         <form
           ref={form}
           onSubmit={handleSubmit(onSubmit)}
-          className=" flex flex-col gap-6 text-xl leading-[30px] font-sofiaSans"
+          className="flex flex-col gap-6 text-xl leading-[30px] font-sofiaSans"
         >
           <div>
             <input
@@ -102,7 +101,7 @@ function ContactForm() {
           </div>
           <div>
             <textarea
-              placeholder="Tell us more about your project*"
+              placeholder="Message*"
               className=" resize-none bg-[#585274] border border-transparent  focus:border-[#958CF8] outline-none rounded-[16px] h-[200px] w-full px-6 py-[15px]"
               {...register("body", {
                 required: "Field is required",

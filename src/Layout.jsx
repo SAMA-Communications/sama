@@ -55,7 +55,7 @@ function Content() {
           </div>
         </div>
       </header>
-      <div className=" bg-bg-color relative px-10 pt-[72px]">
+      <div className=" bg-bg-color relative px-10 max-xl:px-6 pt-[72px] max-xl:pt-[42px]">
         <Outlet />
       </div>
 
