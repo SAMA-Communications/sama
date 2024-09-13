@@ -25,7 +25,11 @@ function Content() {
               <Link to="/" className="h-6">
                 Home
               </Link>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="#"
+                rel="noopener noreferrer"
+                onClick={() => alert("Coming soon")}
+              >
                 Docs
               </a>
               <Link to="pricing"> Pricing</Link>
