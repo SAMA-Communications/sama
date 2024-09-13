@@ -1,9 +1,20 @@
-import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
-import Example from './Layout/gamburger'
-export default function Layout() {
-	return (
-    <div className="  relative">
+import React, { useEffect } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+import Example from "./Layout/gamburger";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
+function Content() {
+  return (
+    <div className="relative">
       <header className="h-24  px-10 py-6 bg-mid-purp z-20 relative">
         <div className="flex gap-[10px] md:justify-between xs:justify-around justify-between items-center ">
           <Link to="/">
@@ -103,5 +114,14 @@ export default function Layout() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export default function Layout() {
+  return (
+    <>
+      <Content />
+      <ScrollToTop />
+    </>
   );
 }
