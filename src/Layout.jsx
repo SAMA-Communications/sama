@@ -59,7 +59,7 @@ function Content() {
         <Outlet />
       </div>
 
-      <footer className="bg-mid-purp md:h-[402px] flex flex-col  pl-10 z-20 relative ">
+      <footer className="bg-mid-purp md:h-[302px] flex flex-col  pl-10 z-20 relative ">
         <div className="flex max-md:flex-col mt-10 lg:gap-36 md:gap-24 gap-12 max-md:items-center">
           <div>
             <Link to="/">
@@ -86,7 +86,7 @@ function Content() {
         <div className=" mt-8 mr-10  h-[1px] bg-gradient-to-r from-[#FD82D2] to-[#5F25BD]" />
         <div className="my-[26px] flex justify-between mr-10">
           <p className=" font-sofiaSans max-md:text-sm">
-            Copyright &copy; 2022–2024 SAMA
+            Copyright &copy; 2024 SAMA
           </p>
           <div className="flex gap-6 items-center ">
             <a
