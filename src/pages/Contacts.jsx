@@ -27,7 +27,7 @@ function FollowUs() {
 
 export default function Contacts() {
   return (
-    <div className="min-h-[792px] pb-[42px]">
+    <div className="min-h-[700px] pb-[42px]">
       <img
         src="static/Contacts/contacts-bg.svg"
         className="absolute right-0 bottom-0 max-lg:hidden"
