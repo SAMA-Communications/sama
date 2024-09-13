@@ -4,7 +4,7 @@ import ContactForm from "../Contacts/ContactForm";
 function FollowUs() {
   return (
     <>
-      <h6 className=" font-sofiaSans text-base leading-[30px]">Follow us on</h6>
+      <p className=" font-sofiaSans text-base leading-[30px]">Follow us on</p>
       <div className="flex gap-4 mt-2">
         <a
           href="https://discord.gg/bHSm9a7DpC"

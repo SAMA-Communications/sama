@@ -50,9 +50,9 @@ function ResumeBlock() {
 				</div>
 			</div> */}
 			<div className="my-20">
-				<h1 className="font-oxanium md:text-5xl sm:text-4xl xs:text-3xl text-2xl sm:leading-[56px] text-center">
+				<p className="font-oxanium md:text-5xl sm:text-4xl xs:text-3xl text-2xl sm:leading-[56px] text-center">
 					It’s simple but advanced
-				</h1>
+				</p>
 				<p className="sm:text-[28px] text-xl leading-6 text-center mt-10">
 					Next-Gen open source chat server
 				</p>

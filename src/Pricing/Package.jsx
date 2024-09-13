@@ -6,8 +6,8 @@ function Package({ title, price, points, headers, isFree }) {
 	return (
     <div className="relative bg-light-purp rounded-[40px] sm:w-[433px] w-80  ">
       <div className="font-oxanium pt-10 px-12 max-xl:px-6  text-center">
-        <h3 className="text-[36px] leading-[42px">{title}</h3>
-        <h4 className="text-2xl leading-6 mt-4 text-[#E9E8F4]">{price} </h4>
+        <p className="text-[36px] leading-[42px">{title}</p>
+        <p className="text-2xl leading-6 mt-4 text-[#E9E8F4]">{price} </p>
       </div>
       <div
         className="mt-10 bg-[#E9E8F4] sm:w-[445px] w-80
@@ -17,12 +17,12 @@ function Package({ title, price, points, headers, isFree }) {
           {!!headers?.length > 0 && (
             <div>
               {headers.map((item, index) => (
-                <h3
+                <p
                   key={index}
                   className=" font-oxanium text-[32px] leading-[42px] text-mid-purp mb-4"
                 >
                   {item}
-                </h3>
+                </p>
               ))}
             </div>
           )}

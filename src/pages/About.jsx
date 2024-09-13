@@ -12,9 +12,9 @@ function About() {
 			/>
 			<div className=" w-full flex flex-col items-center">
 				<div className="z-30 flex flex-col md:gap-8 gap-4 items-center font-oxanium md:w-[742px] ">
-					<h6 className=" sm:text-[28px] text-xl leading-6 ">
+					<p className=" sm:text-[28px] text-xl leading-6 ">
 						A new sense of chat
-					</h6>
+					</p>
 					<h1 className=" md:text-5xl sm:text-4xl xs:text-3xl text-2xl sm:leading-[56px] text-center">
 						Simple but advanced technologies - in your hands
 					</h1>

@@ -45,12 +45,12 @@ function ContactForm() {
 	return (
     <div className="bg-[#352E57] sm:w-[560px] min-h-[585px] rounded-[40px]">
       <div className="m-10 flex flex-col gap-8">
-        <h4
+        <p
           className="font-oxanium sx:text-2xl text-xl
 				 leading-6"
         >
           Send a message
-        </h4>
+        </p>
 
         <form
           ref={form}
