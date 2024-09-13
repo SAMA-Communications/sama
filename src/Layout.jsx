@@ -93,7 +93,7 @@ export default function Layout() {
               <img src="static/Layout/Medium.svg" height="24px" alt="" />
             </a>
             <a
-              href="https://discord.gg/yrHvnwcV"
+              href="https://discord.gg/bHSm9a7DpC"
               target="_blank"
               rel="noopener noreferrer"
             >

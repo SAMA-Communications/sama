@@ -21,7 +21,7 @@ function Contacts() {
             </h6>
             <div className="flex gap-4 mt-2">
               <a
-                href="https://discord.gg/yrHvnwcV"
+                href="https://discord.gg/bHSm9a7DpC"
                 target="_blank"
                 rel="noopener noreferrer"
               >
