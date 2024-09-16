@@ -18,7 +18,7 @@ function Content() {
       <header className="h-24  px-10 py-6 bg-mid-purp z-20 relative">
         <div className="flex gap-[10px] md:justify-between xs:justify-around justify-between items-center ">
           <Link to="/">
-            <img src="static/Layout/header-sama.svg" alt="" />
+            <img src="static/Layout/header-sama.svg" alt="SAMA logo icon" />
           </Link>
           <div className="max-lg:hidden">
             <div className=" flex gap-14 text-xl font-oxanium">
@@ -46,14 +46,14 @@ function Content() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="static/Layout/github-icon-purp.svg" alt="" />
+              <img src="static/Layout/github-icon-purp.svg" alt="GitHub icon" />
             </a>
 
             <Link
               to="contacts"
               className=" bg-transparent h-10 rounded-[40px] px-6 py-[10px] border-2 border-light-purp flex gap-1 items-center text-light-purp font-sofiaSans font-semibold"
             >
-              <img src="static/Layout/phone_iphone_24px.svg" alt="" />
+              <img src="static/Layout/phone_iphone_24px.svg" alt="Contact us icon" />
               Contact us
             </Link>
           </div>
@@ -67,7 +67,7 @@ function Content() {
         <div className="flex max-md:flex-col mt-10 lg:gap-36 md:gap-24 gap-12 max-md:items-center">
           <div>
             <Link to="/">
-              <img src="static/Layout/footer-sama.svg" alt="" />
+              <img src="static/Layout/footer-sama.svg" alt="SAMA logo image" />
             </Link>
           </div>
           <div className="w-full flex lg:gap-36 md:gap-24 max-md:justify-around max-sm:justify-between pr-10">
@@ -98,21 +98,21 @@ function Content() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="static/Layout/github-icon-white.svg" alt="" />
+              <img src="static/Layout/github-icon-white.svg" alt="GitHub icon" />
             </a>
             <a
               href="https://medium.com/sama-communications"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="static/Layout/Medium.svg" height="24px" alt="" />
+              <img src="static/Layout/Medium.svg" height="24px" alt="Medium icon" />
             </a>
             <a
               href="https://discord.gg/bHSm9a7DpC"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="static/Layout/discord-white.svg" alt="" />
+              <img src="static/Layout/discord-white.svg" alt="Discord icon" />
             </a>
           </div>
         </div>

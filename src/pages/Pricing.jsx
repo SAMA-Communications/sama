@@ -10,7 +10,7 @@ function Pricing() {
       <img
         src="static/Pricing/bg-pricing.svg"
         className="absolute top-0 right-[0] max-main:hidden"
-        alt=""
+        alt="Pricing page background"
       />
       <div className="z-10 relative">
         <div className="flex flex-col items-center md:gap-8 gap-4">

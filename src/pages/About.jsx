@@ -12,7 +12,7 @@ function About() {
 			<img
 				src="static/About/bg-about.svg"
 				className="absolute top-[-96px] left-0"
-				alt=""
+				alt="About page background"
 			/>
 			<div className=" w-full flex flex-col items-center">
 				<div className="z-30 flex flex-col md:gap-8 gap-4 items-center font-oxanium md:w-[742px] ">

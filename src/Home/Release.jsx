@@ -6,23 +6,24 @@ function Release() {
 	return (
     <>
       <img
-        src="/static/Homepage/last-bg.svg"
-        className="absolute  main:top-[1851px] lg:top-[2200px]  max-lg:hidden main:left-0 xl:left-[-100px] left-[-250px] "
-        alt=""
+        src="/static/Homepage/last-bg.png"
+        className="absolute  main:top-[1851px] lg:top-[2200px]  max-lg:hidden main:left-0 xl:left-[-100px] left-[-250px]"
+        width="700px"
+        alt="Background image"
       />
-      <div className="xl:mt-52 flex z-10 relative xl:justify-around lg:justify-end  ">
+      <div className="xl:mt-48 flex z-10 relative xl:justify-around lg:justify-end  ">
         <div className=" max-[2000px]:basis-1/2 max-lg:hidden">
           <img
             src="/static/Homepage/iphone.png"
             className="absolute main:left-[379px] xl:left-[200px] left-[100px]"
             width="200px"
-            alt=""
+            alt="iPhone image with SAMA app"
           />
           <img
             src="/static/Homepage/iphone.png"
             className="absolute top-[204px] main:left-[255px] xl:left-[100px] left-[0px]"
             width="200px"
-            alt=""
+            alt="iPhone image with SAMA app"
           />
         </div>
         <div className=" w-[648px] mt-[108px] flex flex-col gap-14 max-lg:ml-16 max-md:ml-0">

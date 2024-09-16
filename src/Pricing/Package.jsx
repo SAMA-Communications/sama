@@ -30,7 +30,7 @@ function Package({ title, price, points, headers, isFree }) {
           <ul className="flex flex-col gap-4 ">
             {points.map((item, index) => (
               <li key={index} className="flex gap-4">
-                <img src="static/Pricing/check_24px.svg" alt="" />
+                <img src="static/Pricing/check_24px.svg" alt="Checkmark icon" />
                 <p className=" font-sofiaSans font-medium text-2xl leading-6 text-mid-purp">
                   {item}
                 </p>

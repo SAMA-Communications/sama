@@ -12,14 +12,14 @@ function FollowUs() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="static/Contacts/discord.svg" width={24} alt="" />
+          <img src="static/Contacts/discord.svg" width={24} alt="Discord icon" />
         </a>
         <a
           href="https://medium.com/sama-communications"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="static/Contacts/medium.svg" width={24} alt="" />
+          <img src="static/Contacts/medium.svg" width={24} alt="Medium icon" />
         </a>
       </div>
     </>
@@ -34,7 +34,7 @@ export default function Contacts() {
       <img
         src="static/Contacts/contacts-bg.svg"
         className="absolute right-0 bottom-0 max-lg:hidden"
-        alt=""
+        alt="Contacts page background image"
       />
 
       <div className="flex max-xl:flex-col max-xl:gap-8 z-10 relative justify-around items-center">
@@ -42,7 +42,7 @@ export default function Contacts() {
           <h1 className=" font-oxanium sm:text-5xl xs:text-4xl text-2xl ">
             Contact SAMA team
           </h1>
-          <img src="static/Contacts/julia_smth_wants.svg" alt="" />
+          <img src="static/Contacts/julia_smth_wants.svg" alt="Contact agent profile picture" />
           <div className="max-xl:hidden">
             <FollowUs />
           </div>
