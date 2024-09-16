@@ -22,7 +22,7 @@ function Offer() {
 					</p>
 
 					<a
-						href="https://github.com/SAMA-Communications#getting-started"
+						href="https://app.samacloud.io"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
