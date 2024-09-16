@@ -34,7 +34,7 @@ function Offer() {
 					</a>
 				</div>
 				<div className="basis-1/2 z-20 relative  max-md:hidden">
-					<img src="static/Homepage/Frame-124.svg" alt="" />
+					<img src="static/Homepage/Frame-124.png" alt="" />
 				</div>
 			</div>
 		</>
