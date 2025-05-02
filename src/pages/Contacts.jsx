@@ -30,7 +30,7 @@ export default function Contacts() {
   useTitle("Get in touch: contact our team | SAMA");
 
   return (
-    <div className="min-h-[700px] pb-[42px]">
+    <div className="min-h-[700px] h-[calc(100dvh-470px)] max-xl:h-[calc(100dvh-437px)] pb-[42px]">
       <img
         src="static/Contacts/contacts-bg.svg"
         className="absolute right-0 bottom-0 max-lg:hidden"
