@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Stack() {
-	return (
+  return (
     <div className="mt-24 flex max-xl:flex-col relative xl:justify-around">
       <div className="flex flex-col lg:gap-10 gap-5 2xl:ml-32 font-oxanium max-xl:ml-32 max-lg:ml-16 max-md:ml-0">
         <h2 className="  sm:text-4xl text-3xl leading-[68px]">SAMA stack</h2>
@@ -20,7 +20,7 @@ function Stack() {
           <p>
             A clustering supported backend for large{" "}
             <a
-              href="https://github.com/SAMA-Communications/sama-server/blob/main/docs/CLUSTERING.md"
+              href="https://docs.samacloud.io/features/clustering/"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-light-purp"
@@ -31,7 +31,7 @@ function Stack() {
           <p>
             An admin dashboard for managing{" "}
             <a
-              href="https://github.com/SAMA-Communications/sama-server-dashboard"
+              href="https://docs.samacloud.io/features/dashboard/"
               target="_blank"
               rel="noopener noreferrer"
               className=" text-light-purp"
@@ -42,7 +42,7 @@ function Stack() {
           <p>
             An easy-to-use{" "}
             <a
-              href="https://github.com/SAMA-Communications/sama-server/blob/main/docs/API.md"
+              href="https://docs.samacloud.io/api/wss/user/create/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-light-purp"
@@ -53,7 +53,7 @@ function Stack() {
         </div>
       </div>
       <div className="mt-9 max-md:hidden self-end">
-        <img src="/static/Homepage/squares-3.png" alt="SAMA stack icon" width="550px"/>
+        <img src="/static/Homepage/squares-3.png" alt="SAMA stack icon" width="550px" />
       </div>
     </div>
   );

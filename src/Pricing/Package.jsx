@@ -3,7 +3,7 @@ import Button from '../components/Button'
 import { Link } from 'react-router-dom'
 
 function Package({ title, price, points, headers, isFree }) {
-	return (
+  return (
     <div className="relative bg-light-purp rounded-[40px] sm:w-[433px] w-80  ">
       <div className="font-oxanium pt-10 px-12 max-xl:px-6  text-center">
         <p className="text-[36px] leading-[42px">{title}</p>
@@ -41,7 +41,7 @@ function Package({ title, price, points, headers, isFree }) {
         <Button>
           {isFree ? (
             <a
-              href="https://github.com/SAMA-Communications#getting-started"
+              href="https://docs.samacloud.io/overview/quick-start/"
               target="_blank"
               rel="noopener noreferrer"
             >

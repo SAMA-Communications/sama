@@ -25,13 +25,9 @@ function Content() {
               <Link to="/" className="h-6">
                 Home
               </Link>
-              <a
-                href="#"
-                rel="noopener noreferrer"
-                onClick={() => alert("Coming soon")}
-              >
+              <Link to="https://docs.samacloud.io/" target="_blank" rel="noopener noreferrer">
                 Docs
-              </a>
+              </Link>
               <Link to="pricing"> Pricing</Link>
               <Link to="about-us"> About Us</Link>
             </div>
@@ -74,7 +70,7 @@ function Content() {
             <div className="flex flex-col gap-3">
               <p className="font-oxanium">Product</p>
               <div className="flex flex-col gap-2 text-color-default font-sofiaSans ">
-                <Link to="#">Docs</Link>
+                <Link to="https://docs.samacloud.io/" target="_blank" rel="noopener noreferrer">Docs</Link>
                 <Link to="/pricing">Pricing</Link>
                 <Link to="/about-us">About us</Link>
               </div>

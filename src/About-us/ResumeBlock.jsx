@@ -58,7 +58,7 @@ function ResumeBlock() {
 				</p>
 				<div className="flex justify-center">
 					<a
-						href="https://github.com/SAMA-Communications#getting-started"
+						href="https://docs.samacloud.io/overview/quick-start/"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
